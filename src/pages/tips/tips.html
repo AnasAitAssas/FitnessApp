@@ -1,0 +1,83 @@
+
+  <ion-header >
+    <ion-navbar>
+
+    <button ion-button menuToggle >
+      <ion-icon name="menu" color="primary"></ion-icon>
+    </button>
+    <ion-title>Tips</ion-title>
+  </ion-navbar>
+  </ion-header>
+
+
+
+  <ion-content padding class="card-background-page" id="content_background" >
+
+    <ion-grid >
+        <ion-row >
+          <ion-col col-12>
+            <div class="list-of-items">
+              <ion-list >
+                  <ion-item>
+                         <ion-select interface="popover">
+                            <ion-option value="Home">Home</ion-option>
+                            <ion-option value="Exercices">Exercices</ion-option>
+                            <ion-option value="Workout">Workout</ion-option>
+                            <ion-option value="challenges">challenges</ion-option>
+                            <ion-option value="Stretching">Stretching</ion-option>
+                            <ion-option value="My Workout">My Workout</ion-option>
+                            <ion-option value="Nutrition"selected>Nutrition</ion-option>
+                         </ion-select>
+                   </ion-item>
+
+                 </ion-list>
+               </div>
+          </ion-col>
+
+       </ion-row>
+    </ion-grid>
+
+
+
+
+    <ion-card (click)="tips_details_Page_Route();" >
+      <img src="assets/imgs/Nutrition/tips4.jpg"/>
+      <button ion-item class="bnt1">
+          <div class="Challenges_items">
+          <span class="items1">How to accelerate your metabolism to lose fat</span>
+          </div>
+      </button>
+    </ion-card>
+
+    <ion-card >
+      <img src="assets/imgs/Nutrition/tips2.jpg"/>
+      <button ion-item class="bnt1">
+          <div class="Challenges_items">
+          <span class="items1">whey protin or meat protine which<br/> is better?</span>
+          </div>
+      </button>
+    </ion-card>
+
+    <ion-card>
+      <img src="assets/imgs/Nutrition/tips3.jpg"/>
+      <button ion-item class="bnt1">
+          <div class="Challenges_items">
+          <span class="items1">the 4 supplements that you should<br/> consume if you have low budget</span>
+          </div>
+      </button>
+    </ion-card>
+
+    <ion-card>
+      <img src="assets/imgs/Nutrition/tips1.jpg"/>
+      <button ion-item class="bnt1">
+          <div class="Challenges_items">
+          <span class="items1">guide to choose your supplements</span>
+          </div>
+      </button>
+
+    </ion-card>
+
+
+
+
+  </ion-content>

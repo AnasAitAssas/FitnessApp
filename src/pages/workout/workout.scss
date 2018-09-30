@@ -1,0 +1,74 @@
+page-workout {
+  ion-list {
+    padding-top:1.5%;
+  }
+
+    .content_background{
+      background-color:black;
+    }
+
+    ion-card{
+      position: relative;
+      text-align: center;
+      border-radius: 25px;
+    }
+
+    .card-background-page {
+
+      ion-card{
+        position: relative;
+        text-align: center;
+        border-radius: 25px;
+      }
+
+        .workout {
+          position: relative;
+          text-align: center;
+            border-radius: 15px;
+            width: 120px;
+            height: 120px;
+
+        }
+        .list-of-items
+        {
+          font-style: italic;
+          font-family: serif;
+
+        }
+
+
+
+        .card-title {
+          position: absolute;
+          top: 70%;
+          font-size: 1.5em;
+          font-style: italic;
+          font-family: serif;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.452);
+          border-radius: 15px;
+        }
+        .head_item{
+          font-style: italic;
+          font-weight:bold;
+          text-align: center;
+          color: #fff;
+
+        }
+
+
+
+        .card-subtitle {
+
+          font-size: 1.0em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+        }
+
+      }
+
+}

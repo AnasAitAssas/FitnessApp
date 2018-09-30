@@ -1,0 +1,77 @@
+<ion-header >
+  <ion-navbar></ion-navbar>
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Nutrition</ion-title>
+</ion-toolbar>
+</ion-header>
+
+
+  <ion-content padding class="card-background-page">
+    <ion-grid>
+        <ion-row>
+          <ion-col col-12>
+            <div class="list-of-items">
+              <ion-list >
+                  <ion-item>
+                         <ion-select interface="popover">
+                            <ion-option value="Home">Home</ion-option>
+                            <ion-option value="Exercices">Exercices</ion-option>
+                            <ion-option value="Workout">Workout</ion-option>
+                            <ion-option value="Challanges">Challanges</ion-option>
+                            <ion-option value="Stretching">Stretching</ion-option>
+                            <ion-option value=" My Workout">My Workout</ion-option>
+                            <ion-option value="Nutrition"selected>Nutrition</ion-option>
+                         </ion-select>
+                   </ion-item>
+
+                 </ion-list>
+               </div>
+          </ion-col>
+
+       </ion-row>
+    </ion-grid>
+
+
+<ion-card   >
+<ion-card-header class="content_background" >
+  <h1 class="head_item">Exercices</h1>
+</ion-card-header>
+</ion-card>
+
+        <ion-card class="Nutrition" (click)="diet_Page_Route();">
+
+          <img src="assets/imgs/Nutrition/Diet Plan.jpg"/>
+          <div class="card-title">Diet Plan</div>
+        </ion-card>
+
+        <ion-card class="Nutrition" (click)="Supplement_Page_Route();" >
+          <img src="assets/imgs/Nutrition/supplement.jpg"/>
+          <div class="card-title">Supplement</div>
+
+        </ion-card>
+
+        <ion-card  class="Nutrition" (click)="Food_Page_Route();">
+          <img src="assets/imgs/Nutrition/food.png"/>
+          <div class="card-title">Food</div>
+
+        </ion-card>
+
+        <ion-card  class="Nutrition" (click)="Calculator_Page_Route();">
+          <img src="assets/imgs/Nutrition/calculator.jpg"/>
+          <div class="card-title">Calculator</div>
+
+        </ion-card>
+        <ion-card class="Nutrition" id="tips" (click)="tips_Page_Route();">
+          <img src="assets/imgs/Nutrition/tips.png"/>
+          <div class="card-title">Tips&Info</div>
+        </ion-card>
+
+</ion-content>

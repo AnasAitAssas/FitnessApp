@@ -1,0 +1,125 @@
+<ion-header >
+
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Exercices</ion-title>
+</ion-toolbar>
+</ion-header>
+
+
+
+  <ion-content padding class="card-background-page">
+    <ion-grid>
+        <ion-row>
+          <ion-col col-12>
+            <div class="list-of-items">
+              <ion-list >
+                  <ion-item>
+                         <ion-select interface="popover">
+                            <ion-option value="Home"  >Home</ion-option>
+                            <ion-option value="Exercices"selected>Exercices</ion-option>
+                            <ion-option value="Workout">Workout</ion-option>
+                            <ion-option value="Challanges">Challanges</ion-option>
+                            <ion-option value="Stretching">Stretching</ion-option>
+                            <ion-option value=" My Workout">My Workout</ion-option>
+                            <ion-option value="Nutrition">Nutrition</ion-option>
+                         </ion-select>
+                   </ion-item>
+
+                 </ion-list>
+               </div>
+          </ion-col>
+
+       </ion-row>
+    </ion-grid>
+
+
+<ion-card>
+<ion-card-header class="content_background"  >
+  <h1 class="head_item">Exercices</h1>
+</ion-card-header>
+</ion-card>
+  <ion-grid>
+    <ion-row align-items-start>
+      <ion-col>
+        <ion-card (click)="Chest_Route();">
+
+          <img src="assets/imgs/Body Part First Look/Chest.png"/>
+          <div class="card-title">Chest</div>
+        </ion-card>
+
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Back.png"/>
+          <div class="card-title">Back</div>
+
+        </ion-card>
+
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Dorso.png"/>
+          <div class="card-title">Dorso</div>
+
+        </ion-card>
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Forearms.png"/>
+          <div class="card-title">Forearms</div>
+
+        </ion-card>
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Hamstrings.png"/>
+          <div class="card-title">Hamstrings</div>
+
+        </ion-card>
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Thighs.png"/>
+          <div class="card-title">Thighs</div>
+
+        </ion-card>
+
+      </ion-col>
+
+      <ion-col>
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Shoulders.png"/>
+          <div class="card-title">Shoulders</div>
+
+        </ion-card>
+
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Biceps.png"/>
+          <div class="card-title">Biceps</div>
+
+        </ion-card>
+
+        <ion-card>
+          <img src="assets/imgs/Body Part First Look/Abs.png"/>
+          <div class="card-title">Abs</div>
+
+          </ion-card>
+          <ion-card>
+            <img src="assets/imgs/Body Part First Look/Calves.png"/>
+            <div class="card-title">Calves</div>
+
+          </ion-card>
+          <ion-card>
+            <img src="assets/imgs/Body Part First Look/Trapezius.png"/>
+            <div class="card-title">Trapezius</div>
+
+          </ion-card>
+          <ion-card>
+            <img src="assets/imgs/Body Part First Look/Triceps.png"/>
+            <div class="card-title">Triceps</div>
+
+          </ion-card>
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid >
+</ion-content>

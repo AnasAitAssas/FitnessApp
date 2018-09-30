@@ -1,0 +1,51 @@
+<ion-header >
+  <ion-navbar></ion-navbar>
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Week 1</ion-title>
+</ion-toolbar>
+</ion-header>
+
+
+<ion-content padding class="card-background-page ">
+
+  <ion-card class="workout" >
+    <img src="assets/imgs/challenges/squat.png"/>
+    <div class="card-title">Squats</div>
+  </ion-card>
+<hr>
+
+<p>You Must Make the following series and
+  repetitions to get to your objective
+</p>
+
+
+  <ion-item>
+  <ion-label>DAY 1 -> 4Set<br/>8-10-12-15</ion-label>
+  <ion-checkbox color="dark" checked="false"></ion-checkbox>
+</ion-item>
+<ion-item>
+<ion-label>DAY 2 -> 5Set<br/>8-10-12-15-15</ion-label>
+<ion-checkbox color="dark" checked="false"></ion-checkbox>
+</ion-item>
+<ion-item>
+<ion-label>DAY 3 -> 5Set<br/>8-10-12-15-18</ion-label>
+<ion-checkbox color="dark" checked="false"></ion-checkbox>
+</ion-item>
+
+<div padding class="btn1">
+  <button block ion-button color="primary" class="btn1">Save</button>
+</div>
+<div padding class="btn1">
+  <button block ion-button color="danger" class="btn1">Clear</button>
+</div>
+
+
+</ion-content>

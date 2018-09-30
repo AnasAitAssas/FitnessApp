@@ -1,0 +1,87 @@
+
+  <ion-header >
+    <ion-navbar>
+
+    <button ion-button menuToggle >
+      <ion-icon name="menu" color="dark"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+  </ion-header>
+
+
+
+  <ion-content padding class="card-background-page" id="content_background" >
+
+    <ion-fab bottom right>
+  <button ion-fab color="dark" mini>
+    <ion-icon  ios="ios-share" md="md-share"></ion-icon>
+  </button>
+    </ion-fab>
+
+    <ion-grid >
+        <ion-row >
+          <ion-col col-12>
+            <div class="list-of-items">
+              <ion-list  >
+                  <ion-item class="test">
+                         <ion-select interface="popover" >
+                            <ion-option value="Home" selected >Home</ion-option>
+                            <ion-option value="Exercices">Exercices</ion-option>
+                            <ion-option value="Workout">Workout</ion-option>
+                            <ion-option value="challenges">challenges</ion-option>
+                            <ion-option value="Stretching">Stretching</ion-option>
+                            <ion-option value="My Workout">My Workout</ion-option>
+                            <ion-option value="Nutrition">Nutrition</ion-option>
+                         </ion-select>
+                   </ion-item>
+
+                 </ion-list>
+               </div>
+          </ion-col>
+
+       </ion-row>
+    </ion-grid>
+
+
+
+
+    <ion-card (click)="Ex_Page_Route();">
+      <img src="assets/imgs/fit4.jpg"/>
+      <div class="card-title">Exercices</div>
+
+
+    </ion-card>
+
+    <ion-card (click)="Workout_Page_Route();">
+      <img src="assets/imgs/fit5.jpg"/>
+      <div class="card-title">Workout</div>
+    </ion-card>
+
+    <ion-card (click)="challanges_Page_Route();">
+      <img src="assets/imgs/fit2.jpg"/>
+      <div class="card-title">Challenges</div>
+    </ion-card>
+
+    <ion-card (click)="Stretching_Page_Route();">
+      <img src="assets/imgs/fit6.jpg"/>
+      <div class="card-title">Stretching</div>
+
+    </ion-card>
+
+    <ion-card (click)="Myworkout_Page_Route();">
+      <img src="assets/imgs/fit1.jpg"/>
+      <div class="card-title">My Workouts</div>
+
+    </ion-card>
+
+    <ion-card (click)="Nutrition_Page_Route();">
+      <img src="assets/imgs/nutrition.jpg"/>
+      <div class="card-title">Nutrition</div>
+
+    </ion-card>
+
+
+
+
+  </ion-content>

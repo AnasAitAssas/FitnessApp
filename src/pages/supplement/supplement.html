@@ -1,0 +1,64 @@
+<ion-header >
+  <ion-navbar></ion-navbar>
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Supplement</ion-title>
+</ion-toolbar>
+</ion-header>
+
+
+
+  <ion-content padding class="card-background-page"  id="content_background">
+    <ion-card  >
+    <ion-card-header class="content_background"  >
+      <span class="head_item">Supplement</span>
+    </ion-card-header>
+    </ion-card>
+
+  <ion-grid >
+    <ion-row align-items-start>
+      <ion-col>
+        <ion-card class="workout"(click)="Protine_Page_Route();" >
+          <img src="assets/imgs/Supplement/protine.jpg"/>
+          <div class="card-title">Protine</div>
+        </ion-card>
+
+        <ion-card class="workout">
+          <img src="assets/imgs/Supplement/cas.jpg"/>
+          <div class="card-title">Caisein</div>
+
+        </ion-card>
+
+        <ion-card class="workout">
+          <img src="assets/imgs/Supplement/Gainer.jpg"/>
+          <div class="card-title">Gainer</div>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="workout">
+          <img src="assets/imgs/Supplement/bcaa.jpg"/>
+          <div class="card-title">BCAA</div>
+        </ion-card>
+
+        <ion-card class="workout">
+          <img src="assets/imgs/Supplement/hmb.jpg"/>
+          <div class="card-title">HMB</div>
+        </ion-card>
+
+        <ion-card class="workout">
+          <img src="assets/imgs/Supplement/creatine.jpg"/>
+          <div class="card-title">Creatine</div>
+          </ion-card>
+
+      </ion-col>
+
+    </ion-row>
+  </ion-grid >
+</ion-content>

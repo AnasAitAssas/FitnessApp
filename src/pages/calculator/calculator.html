@@ -1,0 +1,30 @@
+<ion-header >
+  <ion-navbar></ion-navbar>
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Calculator</ion-title>
+</ion-toolbar>
+</ion-header>
+
+
+<ion-content padding class="card-background-page" >
+
+  <ion-card class="Men"(click)="Men_Page_Route();">
+    <img src="assets/imgs/calculator/Men.jpg"/>
+    <div class="card-title">Men</div>
+
+
+  </ion-card>
+  <ion-card  (click)="Woman_Page_Route();">
+    <img src="assets/imgs/calculator/Woman.jpg"/>
+    <div class="card-title">Woman</div>
+  </ion-card>
+
+</ion-content>

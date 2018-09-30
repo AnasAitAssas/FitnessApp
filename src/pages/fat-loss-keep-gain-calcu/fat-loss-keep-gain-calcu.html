@@ -1,0 +1,54 @@
+<ion-header >
+  <ion-navbar></ion-navbar>
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Fat Loss</ion-title>
+</ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card class="card-background-page">
+  <ion-card-header class="content_background" >
+    <h1 class="head_item">Fat Loss</h1>
+  </ion-card-header>
+  </ion-card>
+
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label>Weight</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Height</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Age</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item></ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button block ion-button color="primary" class="btn1">Count</button>
+  </div>
+
+  <ion-label>Protine</ion-label><ion-input type="text" placeholder="Protine G"></ion-input>
+  <ion-label>Carbs</ion-label>  <ion-input type="text" placeholder="Carbs G"></ion-input>
+  <ion-label>Fat</ion-label>  <ion-input type="text" placeholder="Fat G"></ion-input>
+
+
+</ion-content>

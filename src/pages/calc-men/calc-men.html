@@ -1,0 +1,39 @@
+
+<ion-header >
+  <ion-navbar></ion-navbar>
+  <ion-toolbar>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-buttons end>
+    <button ion-button (click)="doClick()">
+      <ion-icon name="more"></ion-icon>
+    </button>
+  </ion-buttons>
+  <ion-title>Calculator Men</ion-title>
+</ion-toolbar>
+</ion-header>
+
+  <ion-content padding class="card-background-page" >
+
+    <ion-card (click)="Fat_Loss_Page_Route();" >
+      <img src="assets/imgs/Nutrition/fat loss.jpg"/>
+      <div class="card-title">Fat Loss</div>
+
+    </ion-card>
+
+    <ion-card (click)="Keep_Weight_Page_Route();">
+      <img src="assets/imgs/Nutrition/keep weight.jpg"/>
+      <div class="card-title">Keep Weight</div>
+    </ion-card>
+
+    <ion-card (click)="Gain_Muscles_Page_Route();">
+      <img src="assets/imgs/Nutrition/gain muscles.jpg"/>
+      <div class="card-title">Gain Muscles</div>
+    </ion-card>
+
+
+
+
+
+  </ion-content>

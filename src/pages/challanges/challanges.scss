@@ -1,0 +1,55 @@
+page-challanges {
+
+
+
+  .Challenges_items {
+     display: flex;
+     align-items:center;
+     padding-bottom:3%;
+
+  }
+  .Challanges_img{
+
+    height: 70px;
+  }
+
+ion-card-header{
+
+  text-align: center;
+  border-radius: 25px;
+}
+.content_background{
+
+  background-color: black;
+}
+  .head_item{
+    font-style: italic;
+    font-weight:bold;
+    color: #fff;
+
+  }
+
+.items1{
+  padding-left: 7%;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+button{
+  background-color: red;
+
+
+}
+  img {
+      border: 1px solid #ddd;
+      border-radius: 25px;
+      padding: 5px;
+      width: 65px;
+  }
+
+
+
+
+}

@@ -1,0 +1,61 @@
+page-home {
+
+  ion-list {
+    padding-top:1.5%;
+  }
+
+  span{
+    font-style: italic;
+    font-family: serif;
+    font-weight: bolder;
+  }
+
+
+
+    .card-background-page {
+
+
+
+        ion-card {
+          position: relative;
+          text-align: center;
+          border-radius: 10px;
+
+
+        }
+        .list-of-items
+        {
+          font-style: italic;
+          font-family: serif;
+
+
+        }
+
+
+
+        .card-title {
+          position: absolute;
+          top: 70%;
+          font-size: 2.0em;
+          font-style: italic;
+          font-family: serif;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.452);
+          border-radius: 15px;
+        }
+
+
+        .card-subtitle {
+
+          font-size: 1.0em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+        }
+
+      }
+
+}
